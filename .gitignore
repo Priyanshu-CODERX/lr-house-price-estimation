@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data
+data/processed/
+
+# Models and artifacts (reproducible via src/train.py)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
